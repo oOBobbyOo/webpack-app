@@ -1,0 +1,30 @@
+@import './mixin'; 
+
+$white: #ffffff; 
+
+img{ 
+  max-width:100%;
+  width: 100%;
+}
+
+.layout {
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  
+  .header{
+    text-align: center;
+    h1{
+      width: 2rem;
+      height: 1rem;
+      margin: 0 auto;
+      font-weight: bold;
+      border: 1px solid $white;
+      @include font-dpr(14px);
+      @include border-radius(2px);
+    }
+  }
+}
+
+
+

@@ -1,0 +1,18 @@
+@import './mixin'; 
+
+$white: #ffffff; 
+
+img{ 
+  max-width:100%;
+  width: 100%;
+}
+
+.about {
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #f00;
+}
+
+
+
