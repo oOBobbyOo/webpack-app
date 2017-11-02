@@ -18,4 +18,3 @@ npm run dev
 npm run build 
 ```
 
-For any questions, please leave a email to 944831575@qq.com Thank you :smile:

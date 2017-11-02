@@ -10,7 +10,7 @@ require('./styles/app.scss');
 
 $(document).ready(function() {
 
-	var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.swiper-container', {
     paginationClickable: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
@@ -18,5 +18,5 @@ $(document).ready(function() {
     centeredSlides: true,
     autoplay: 2500,
     autoplayDisableOnInteraction: false
-	});
+  });
 });
